@@ -11,6 +11,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
+import { AngularComponent } from './angular/angular.component';
+import { JavascriptComponent } from './javascript/javascript.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { ProjectCardComponent } from './project-card/project-card.component';
     ResumeComponent,
     ContactComponent,
     ProjectCardComponent,
+    AngularComponent,
+    JavascriptComponent,
+    BootstrapComponent,
   ],
   imports: [
     BrowserModule,
