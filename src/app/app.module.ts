@@ -21,7 +21,7 @@ import { ProjectCardComponent } from './project-card/project-card.component';
     PortfolioComponent,
     ResumeComponent,
     ContactComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
   ],
   imports: [
     BrowserModule,
