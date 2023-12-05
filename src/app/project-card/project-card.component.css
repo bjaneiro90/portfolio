@@ -20,3 +20,8 @@ padding-right: 1.2rem;
     fill: #563d7c;
 }
 
+.btn-primary {
+    color: #212529;
+    background-color: #a4bec8;
+    border-color: #a4bec8
+}

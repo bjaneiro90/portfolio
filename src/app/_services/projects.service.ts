@@ -13,22 +13,22 @@ export class ProjectsService {
     summary: "Test Description",
     description: "",
     projectLink: "",
-    pictures: []},
-   //tag: [Tag.ANGULAR]
+    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]},
+    //tag: [Tag.ANGULAR],
 
    {id: 1,
     name: "Drum Instrument",
     summary: "Test Description",
     description: "",
     projectLink: "",
-    pictures: []},
+    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]},
 
     {id: 3,
       name: "API for retro products",
       summary: "Test Description",
       description: "",
       projectLink: "",
-      pictures: []}
+      pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]}
     ];
 
 

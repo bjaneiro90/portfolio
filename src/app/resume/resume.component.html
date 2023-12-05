@@ -1,1 +1,26 @@
-<p>resume works!</p>
+<section class="containter text-center">
+    <button (click)="DownloadFile()" class="btn btn-secondary mb-5 shadow border bg-#b3c8c0">Download PDF Resume</button>
+
+    <accordion [isAnimated]="true" class="shadow">
+        <accordion-group [(isOpen)]="isEducationOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100"accordion-heading>
+                <div class="btn-link">Education</div>
+                <div *ngIf="!isEducationOpen" style="color: black;">></div>
+                <div *ngIf="isEducationOpen"style="color: black;">v</div>
+            </button>
+        </accordion-group>
+        <accordion-group heading="Certifications" id="resume">
+            <div style="text-align:left">
+                <h3>Full Stack Javascript Programming Bootcamp</h3>
+                <div class="certificados">
+                    <img src="../../assets/certificado1.PNG" alt="certificado1" width="25%" height="25%" class=" object-fit-cover">
+                    <img src="../../assets/certificado1.PNG" alt="certificado2" width="25%" height="25%" class=" object-fit-cover">
+                </div>
+                
+            </div>
+        </accordion-group>
+        <accordion-group heading="Skills">
+
+        </accordion-group>
+    </accordion>
+</section>

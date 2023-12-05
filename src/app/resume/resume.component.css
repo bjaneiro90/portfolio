@@ -1,0 +1,21 @@
+.btn-secondary {
+    color: #212529;
+    background-color: #a4bec8;
+    border-color: #a4bec8
+}
+
+accordion-group::ng-deep .card-header {
+    background-color:#e8eeec;
+}
+
+accordion-group::ng-deep .btn{
+    text-decoration:none;
+    color: black;
+    font-style: italic;
+    font-size: large;
+}
+
+.certificados {
+    display: flex;
+    justify-content:space-around;
+}
