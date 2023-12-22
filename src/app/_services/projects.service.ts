@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Project } from '../_models/Project';
+import { Tag } from '../_models/Tag';
 
 @Injectable({
   providedIn: 'root'
@@ -13,22 +14,34 @@ export class ProjectsService {
     summary: "Test Description",
     description: "",
     projectLink: "",
-    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]},
-    //tag: [Tag.ANGULAR],
+    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"],
+    tag1: ["../../assets/angular-1-32.png"],
+    tag2: ["../../assets/javascript-3-32.png"],
+    tag3: ["../../assets/bootstrap-2-32.png"],
+    
+    },
 
    {id: 1,
     name: "Drum Instrument",
     summary: "Test Description",
     description: "",
     projectLink: "",
-    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]},
+    pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"],
+    tag1: ["../../assets/4202020_css3_html_logo_social_social media_icon.png"],
+    tag2: ["../../assets/javascript-3-32.png"],
+    tag3: ["../../assets/html5-12-32.png"]
+    },
 
     {id: 3,
       name: "API for retro products",
       summary: "Test Description",
       description: "",
       projectLink: "",
-      pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"]}
+      pictures: ["../../assets/image1.png", "../../assets/image2.png", "../../assets/image3.png"],
+      tag1: ["../../assets/react-32.png"],
+      tag2: ["../../assets/javascript-3-32.png"],
+      tag3: ["../../assets/nodejs-performance-platform-32.png"]
+    },
     ];
 
 

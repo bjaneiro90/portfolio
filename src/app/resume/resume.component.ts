@@ -10,6 +10,8 @@ export class ResumeComponent {
 
 
   isEducationOpen: boolean = false;
+  isCertificationOpen: boolean = false;
+  isSkillsOpen: boolean = false
 
   constructor(private titleService:Title, private renderer: Renderer2) {
     this.titleService.setTitle("Bruno Janeiro - Resume")

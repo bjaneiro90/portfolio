@@ -1,3 +1,7 @@
 .container {
     max-width: 1140px;
 }
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
