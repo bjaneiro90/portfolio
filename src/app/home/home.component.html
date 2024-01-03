@@ -1,16 +1,18 @@
 <main class="container">
     <section class="row">
-        <article class="col-lg shadow border m-1">
+        <article class="col-lg shadow border m-1" style="background-color: #e8eeec;">
             <div class="text-center">
                 <h2>About me</h2>
-                <img src="../../assets/FB_IMG_1699702031238.jpg" alt="profile picture" width="256" height="256" class=" object-fit-cover rounded-circle">
-                <p class="about_me1">Born in 1990, in Lisbon, Portugal. I believe that being a web developer is a journey, <b>enjoy the ride🚀</b>. 
+                <div class="profile">
+                    <img class="profile" src="../../assets/FB_IMG_1699702031238.jpg" alt="profile picture" width="256" height="256" class=" object-fit-cover rounded-circle">
+                </div>
+                <p class="about_me1">Born in 1990, from Lisbon, Portugal. I believe that being a web developer is a journey, <b>enjoy the ride🚀</b>. 
             </p>
                 <br>
                     <p class="about_me2">With the mission of evolving and aggregating ideas, I am pursuing the growth of daily knowledge through reasoning and practice.</p>
             </div>
         </article>
-        <article class="col-lg shadow border m-1">
+        <article class="col-lg shadow border m-1" style="background-color: #e8eeec;">
             <div class="text-center">
                 <h2>Featured Project</h2>
                 <h4>{{featuredProject.name}}</h4>
@@ -22,8 +24,9 @@
                 </div>
             </carousel>
 
-            <p class="mt-2">{{featuredProject.summary}}</p>
-            <p>Vist the Portefolio section to learn more</p>
+            <h5 id="summary" class="mt-2 text-center font-weight-normal">{{featuredProject.summary}}</h5>
+            <p class="mt-2">{{featuredProject.description}}</p>
+            <p>Click <a href={{featuredProject.projectLink}} target="_blank">here</a> to find this project on GitHub.</p>
         </article>
     </section>
 </main>
