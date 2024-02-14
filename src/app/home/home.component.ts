@@ -8,13 +8,13 @@ import { Project } from '../_models/Project';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
 
   featuredProject = {} as Project
-  constructor(private titleService:Title, private projectService: ProjectsService) {
+  constructor(private titleService: Title, private projectService: ProjectsService) {
     this.titleService.setTitle("Bruno Janeiro - Home")
   }
   ngOnInit(): void {
-    this.featuredProject = this.projectService.GetProjectById(4);
+    this.featuredProject = this.projectService.GetProjectById(5);
   }
 }
