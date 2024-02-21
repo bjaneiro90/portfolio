@@ -1,29 +1,33 @@
 <section class="containter text-center">
-    <button (click)="DownloadFile()" class="btn btn-secondary mb-5 shadow border bg-#b3c8c0">Download PDF Resume</button>
+    <button (click)="DownloadFile()" class="btn btn-secondary mb-5 shadow border bg-#b3c8c0">Download PDF
+        Resume</button>
 
     <div class="pb-2">
-        <accordion [isAnimated]="true" class="shadow" >
-            <accordion-group [(isOpen)]="isEducationOpen" >
-                <button class="btn btn-block justify-content-between d-flex w-100"accordion-heading>
+        <accordion [isAnimated]="true" class="shadow">
+            <accordion-group [(isOpen)]="isEducationOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
                     <div style="visibility: hidden;">></div>
                     <div class="btn">Work Experience</div>
-                    
+
                     <div style="width: 10.95px;;">
                         <div *ngIf="!isEducationOpen" style="color: black; padding-top: 5px;">></div>
-                        <div *ngIf="isEducationOpen"style="color: black; padding-top: 5px;">v</div>
+                        <div *ngIf="isEducationOpen" style="color: black; padding-top: 5px;">v</div>
                     </div>
                 </button>
                 <div style="text-align:left">
                     <h2 class="mb-0">Freelancer</h2>
                     <h3 class="title">Projects:</h3>
                     <ul>
-                        <li> Drum music instrument in Javascript</li>
-                        <li>API for an online vintage product store based on <b>Node.js</b> and <b>Express.js</b></li>
-                        <li> Complete design of a Notepad online application:</li>
+                        <li>Drum music instrument in Javascript</li>
+                        <li>REST API for an online vintage product store based on <b>Node.js</b> and <b>Express.js</b>
+                        </li>
+                        <li>Complete design of a Notepad online application:</li>
                         <ul>
                             <li>Back-end Project (<b>Node.js</b> & <b>Express.js</b>);</li>
-                            <li>Front-end Procjet (<b>React.js</b> & <b>Vite.js</b>);</li>
+                            <li>Front-end Project <b>1.0</b> (<b>React.js</b> & <b>Vite.js</b>);</li>
+                            <li>Front-end Project <b>2.0</b> (<b>React.js</b> & <b>Vite.js</b>);</li>
                         </ul>
+                        <li>REST API for an social media project aimed at elderly people </li>
                     </ul>
                 </div>
 
@@ -32,35 +36,37 @@
 
 
             <accordion-group [(isOpen)]="isCertificationOpen">
-                <button class="btn btn-block justify-content-between d-flex w-100"accordion-heading>
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
                     <div style="visibility: hidden;">></div>
                     <div class="btn">Certifications</div>
-                    
+
                     <div style="width: 10.95px;;">
                         <div *ngIf="!isCertificationOpen" style="color: black; padding-top: 5px;">></div>
-                        <div *ngIf="isCertificationOpen"style="color: black; padding-top: 5px;">v</div>
+                        <div *ngIf="isCertificationOpen" style="color: black; padding-top: 5px;">v</div>
                     </div>
-                    
+
                 </button>
-                <div style="text-align:left" >
+                <div style="text-align:left">
                     <div class="certificados">
-                        <img src="../../assets/certificado1.PNG" alt="certificado1" width="25%" height="25%" class=" object-fit-cover">
-                        <img src="../../assets/certificado1.PNG" alt="certificado2" width="25%" height="25%" class=" object-fit-cover">
-                    </div>   
+                        <img src="../../assets/certificado1.PNG" alt="certificado1" width="25%" height="25%"
+                            class=" object-fit-cover">
+                        <img src="../../assets/certificado1.PNG" alt="certificado2" width="25%" height="25%"
+                            class=" object-fit-cover">
+                    </div>
                 </div>
 
             </accordion-group>
             <accordion-group [(isOpen)]="isSkillsOpen">
-                <button class="btn btn-block justify-content-between d-flex w-100"accordion-heading>
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
                     <div style="visibility: hidden;">></div>
                     <div class="btn">Skills</div>
-                    
+
                     <div style="width: 10.95px;;">
                         <div *ngIf="!isSkillsOpen" style="color: black; padding-top: 5px;">></div>
-                        <div *ngIf="isSkillsOpen"style="color: black; padding-top: 5px;">v</div>
+                        <div *ngIf="isSkillsOpen" style="color: black; padding-top: 5px;">v</div>
                     </div>
-                </button>     
-    
+                </button>
+
                 <div class="row" style="text-align: left;">
                     <div class="col">
                         <h3 class="title">Programming Languages:</h3>
@@ -90,5 +96,5 @@
             </accordion-group>
         </accordion>
     </div>
-    
+
 </section>
